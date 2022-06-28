@@ -31,7 +31,7 @@ function getChildrenRoutes(layoutRoutes: RouteRecordRaw) {
     // console.log(file)
     if (file.includes(`../views/${layoutRoutes.name as string}`)) {
       const route = getRouteByModule(file, module)
-      console.log(route)
+      // console.log(route)
       routes.push(route)
     }
   })

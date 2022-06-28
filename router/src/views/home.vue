@@ -1,8 +1,8 @@
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
+<template>
+    主页-Home.vue
+    <router-view />
+</template>
 
-<template>网站主页</template>
-
-<style lang="scss">
-</style>
+<style lang="scss"></style>

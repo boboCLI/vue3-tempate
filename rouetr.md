@@ -19,3 +19,21 @@ yarn add -d @types/node
 ```js
 // autoload.ts
 ```
+
+
+### vite mock.js
+使用 vite-plugin-mock 插件
+https://www.npmjs.com/package/vite-plugin-mock
+
+```shell
+yarn add mock.js
+and
+yarn add vite-plugin-mock -D
+
+```
+
+### 解决类型声明文件
+
+typeof Record<T extends keyof any, D> = {
+  [P in T]: D
+}
