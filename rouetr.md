@@ -37,3 +37,24 @@ yarn add vite-plugin-mock -D
 typeof Record<T extends keyof any, D> = {
   [P in T]: D
 }
+
+新建一个Class对环境变量解析，支持变量类型支持。
+
+### 对接口请求提供类型支持
+
+安装 axios 库
+
+`yarn add axios`
+
+进行插件管理
+
+```ts
+/src/plugins/axios/
+
+class Axios {
+  private instance
+  constructor() {
+    
+  }
+}
+```

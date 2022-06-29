@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { env } from './types/helper';
-console.log(typeof import.meta.env.VITE_ROUTE_AUTOLOAD);
-console.log(typeof env.VITE_SOME_KEY);
+import { info } from '@/apis/user';
+// console.log(typeof import.meta.env.VITE_ROUTE_AUTOLOAD);
+// console.log(typeof env.VITE_SOME_KEY);
+const response = await info();
+console.log(response);
 </script>
 
 <template>
