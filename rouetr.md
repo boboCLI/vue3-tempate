@@ -20,8 +20,8 @@ yarn add -d @types/node
 // autoload.ts
 ```
 
-
 ### vite mock.js
+
 使用 vite-plugin-mock 插件
 https://www.npmjs.com/package/vite-plugin-mock
 
@@ -35,10 +35,10 @@ yarn add vite-plugin-mock -D
 ### 解决类型声明文件
 
 typeof Record<T extends keyof any, D> = {
-  [P in T]: D
+[P in T]: D
 }
 
-新建一个Class对环境变量解析，支持变量类型支持。
+新建一个 Class 对环境变量解析，支持变量类型支持。
 
 ### 对接口请求提供类型支持
 
@@ -49,12 +49,12 @@ typeof Record<T extends keyof any, D> = {
 进行插件管理
 
 ```ts
-/src/plugins/axios/
-
-class Axios {
-  private instance
-  constructor() {
-    
+;/src/gilnpsu /
+  axios /
+  class Axios {
+    private instance
+    constructor() {}
   }
-}
 ```
+
+增加 tag
